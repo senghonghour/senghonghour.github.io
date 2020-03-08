@@ -1,0 +1,118 @@
+/* codes
+#464c4f font 1
+#828283 font 2
+#ececee bg
+#d8604b red
+*/
+/* global */
+html {
+}
+a, p, span, h1, h2, h3, h4, h5, h6 {
+    color: #828283;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+p {
+    font-size: 0.85em;
+}
+h2 {
+    color: #464c4f;
+}
+h2,h4 {
+    font-weight: 700;
+    margin-top: 0px;
+    letter-spacing: 8px;
+}
+.red {
+    color: #d8604b;
+}
+.uk-height-medium {
+    height: 240px;
+}
+.uk-modal-body {
+    padding: 0;
+}
+
+/* text */
+.lead {
+    letter-spacing: 1.6px;
+    font-weight: 700;
+}
+.lead-2 {
+    letter-spacing: 1.6px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* intro */
+#my-portrait {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #fff;
+}
+.name {
+    font-size: 4em;
+    color: #464c4f;
+    letter-spacing: 16px;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+.position {
+    letter-spacing: 3px;
+}
+.uk-divider-small::after {
+    color: #d8604b;
+    border-top: 8px solid #d8604b;
+}
+
+/* tint */
+.tint {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    transition: background-color 0.35s;
+}
+.tint:hover {
+    background-color: rgba(0, 0, 0, 0.65);
+    transition: background-color 0.35s;
+}
+
+/* button */
+.uk-icon-button:hover {
+    background-color: #d8604b;
+    color: #fff;
+}
+.uk-button:active {
+    background: #d8604b;
+}
+
+/* responsive */
+@media only screen and (max-width: 1024px) {    
+    .uk-height-medium {
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    #my-portrait {
+        width: 160px;
+        height: 160px;
+        border: 4px solid #fff;
+    }
+    .uk-height-medium {
+        height: 128px;
+    }
+    .name {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1em;
+    }
+    h4.position {
+        font-size: 0.65em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    .uk-margin-medium-bottom {
+        margin-bottom: 20px !important;
+    }
+}

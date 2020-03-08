@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149782296-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-149782296-1');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <title>Senghong Hour</title>
+    
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+
+    <!-- modal -->
+    <div id="about-modal" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+  
+          <button class="uk-modal-close-default" type="button" uk-close></button>
+  
+          <!-- contact info -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">CONTACT INFO</h4>
+            <p>
+              <span uk-icon="receiver"></span> +855 77 511 988
+            </p>
+            <p>
+              <span uk-icon="mail"></span> hoursenghong@gmail.com
+            </p>
+            <div class="uk-button-group uk-flex-center">
+              <a class="uk-icon-button uk-margin-small-right" target="_blank" href="https://www.facebook.com/hoursenghong" uk-icon="facebook"></a>
+              <a class="uk-icon-button uk-margin-small-right" target="_blank" href="https://www.instagram.com/hour_senghong" uk-icon="instagram"></a>
+              <a class="uk-icon-button uk-margin-small-right" target="_blank" href="https://github.com/senghonghour" uk-icon="github"></a>
+              <a class="uk-icon-button" target="_blank" href="https://kh.linkedin.com/in/senghong-hour-738b5b10b" uk-icon="linkedin"></a>
+            </div>
+          </div>
+
+          <!-- profile -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">PROFILE</h4>
+            <div>
+              <p>
+                "Not old. But vintage". Kind of a geek. I like technology and working from computer. Interior, graphic design, and web development. I also enjoy web surfing to catch up with the current trends, good food, and travelling. And also, I train and teach Brazilian Jiu Jitsu, and helping with social project to help at-risk youth.
+              </p>
+            </div>
+          </div>
+
+          <!-- experience -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">EXPERIENCE</h4>
+            <div>
+              <p class="lead">GRAPHIC DESIGNER | 2019 - PRESENT</p>
+              <p class="lead">YI FUNG REAL ESTATE</p>
+              <p>
+                General graphic design for social media posts, magazine advertisement, special occasion artworks, property listings, presentations and etc.
+              </p>
+            </div>
+            <br>
+            <div>
+              <p class="lead">INTERIOR DESIGNER | 2015 - 2019</p>
+              <p class="lead">.BEYOND DESIGN</p>
+              <p>
+                Conceptualize interior and exterior spaces, schematic drawings, 2D drafting, and 3D rendering.
+              </p>
+            </div>
+            <br>
+            <div>
+              <p class="lead">GRAPHIC DESIGNER | 2012 - 2014</p>
+              <p class="lead">NOKOR WAT MEDIA</p>
+              <p>
+                Graphic design for magazine.
+              </p>
+            </div>
+          </div>
+
+          <!-- education -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">EDUCATION</h4>
+            <div>
+              <p class="lead">BACHELOR'S DEGREE IN DESIGN | 2012 - 2016</p>
+              <p class="lead">SETEC INSTITUTE | PHNOM PENH</p>
+            </div>
+          </div>
+
+          <!-- software -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">SOFTWARE</h4>
+            <div>
+              <p>
+                2D Drafting |<br>
+                Autodesk AutoCAD<br>
+                3D Arch Viz |<br>
+                3D Studio Max, V-Ray, SketchUp, Cinema 4D<br>
+                Graphic |<br>
+                Adobe Photoshop, Illustrator, InDesign, XD<br>
+                
+              </p>
+            </div>
+          </div>
+
+          <!-- hobbies -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">INTEREST & HOBBIES</h4>
+            <div>
+              <p>
+                Food<br>
+                Travelling<br>
+                Video Games<br>
+                Technology<br>
+                Brazilian Jiu Jitsu
+              </p>
+            </div>
+          </div>
+  
+      </div>
+    </div>
+
+    <!-- main content -->
+    <div class="uk-container uk-flex uk-flex-column uk-flex-center uk-margin-medium-top uk-margin-medium-bottom">
+
+      <div class="uk-grid-collapse" style="background-color: #ececee;" uk-grid>
+
+        <!-- left grid-->
+        <div class="uk-width-expand@m uk-width-1-1@s uk-flex uk-flex-column">
+
+          <!-- portrait -->
+          <div class="uk-padding uk-flex uk-flex-middle uk-flex-center">
+            <img class="uk-border-circle" src="data/portrait/me.jpg" id="my-portrait">
+          </div>
+
+        </div>
+        
+        <!-- right grid-->
+        <div class="uk-width-2-3@m uk-width-1-1@s uk-flex uk-flex-column">
+
+          <!-- intro -->      
+          <div class="uk-padding uk-flex uk-flex-middle">
+            <div class="uk-width-1-1">
+              <h1 class="name">SENGHONG<BR>HOUR</h1>
+              <h4 class="position">DESIG..... I JUST DO THINGS</h4>
+              <hr class="uk-divider-small">
+              <button class="uk-button uk-hidden@s" href="#about-modal" uk-toggle>ABOUT ME</button>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+      <div class="uk-grid-collapse" style="background-color: #ececee;" uk-grid>
+
+        <!-- left grid-->
+        <div class="uk-width-expand@m uk-flex uk-flex-column uk-visible@m">
+
+          <!-- contact info -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">CONTACT INFO</h4>
+            <p>
+              <span uk-icon="receiver"></span> +855 77 511 988
+            </p>
+            <p>
+              <span uk-icon="mail"></span> hoursenghong@gmail.com
+            </p>
+            <div class="uk-button-group uk-flex-center">
+              <a class="uk-icon-button uk-margin-small-right" target="_blank" href="https://www.facebook.com/hoursenghong" uk-icon="facebook"></a>
+              <a class="uk-icon-button uk-margin-small-right" target="_blank" href="https://www.instagram.com/hour_senghong" uk-icon="instagram"></a>
+              <a class="uk-icon-button uk-margin-small-right" target="_blank" href="https://github.com/senghonghour" uk-icon="github"></a>
+              <a class="uk-icon-button" target="_blank" href="https://kh.linkedin.com/in/senghong-hour-738b5b10b" uk-icon="linkedin"></a>
+            </div>
+          </div>
+
+          <!-- profile -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">PROFILE</h4>
+            <div>
+              <p>
+                "Not old. But vintage". Kind of a geek. I like technology and working from computer. Interior, graphic design, and web development. I also enjoy web surfing to catch up with the current trends, good food, and travelling. And also, I train and teach Brazilian Jiu Jitsu, and helping with social project to help at-risk youth.
+              </p>
+            </div>
+          </div>
+
+          <!-- experience -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">EXPERIENCE</h4>
+            <div>
+              <p class="lead">GRAPHIC DESIGNER | 2019 - PRESENT</p>
+              <p class="lead">YI FUNG REAL ESTATE</p>
+              <p>
+                General graphic design for social media posts, magazine advertisement, special occasion artworks, property listings, presentations and etc.
+              </p>
+            </div>
+            <br>
+            <div>
+              <p class="lead">INTERIOR DESIGNER | 2015 - 2019</p>
+              <p class="lead">.BEYOND DESIGN</p>
+              <p>
+                Conceptualize interior and exterior spaces, schematic drawings, 2D drafting, and 3D rendering.
+              </p>
+            </div>
+            <br>
+            <div>
+              <p class="lead">GRAPHIC DESIGNER | 2012 - 2014</p>
+              <p class="lead">NOKOR WAT MEDIA</p>
+              <p>
+                Graphic design for magazine.
+              </p>
+            </div>
+          </div>
+
+          <!-- education -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">EDUCATION</h4>
+            <div>
+              <p class="lead">BACHELOR'S DEGREE IN DESIGN | 2012 - 2016</p>
+              <p class="lead">SETEC INSTITUTE | PHNOM PENH</p>
+            </div>
+          </div>
+
+          <!-- hobbies -->
+          <div class="uk-padding">
+            <h4 class="lead uk-margin-medium-bottom">INTEREST & HOBBIES</h4>
+            <div>
+              <p>
+                Food<br>
+                Travelling<br>
+                Video Games<br>
+                Technology<br>
+                Brazilian Jiu Jitsu
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- right grid-->
+        <div class="uk-width-2-3@m uk-width-1-1@s uk-flex uk-flex-column">
+
+          <!-- work -->
+          <div class="uk-padding">
+
+            <h2 class="lead-2 uk-margin-medium-bottom">INTERIOR DESIGN</h2>
+            <div class="uk-grid-collapse uk-text-center" uk-grid>
+              <a class="uk-height-medium uk-width-1-1@s uk-width-1-2 uk-link-reset">
+                <div class="uk-background-cover uk-light uk-height-1-1 uk-flex uk-flex-center uk-flex-middle tint" data-src="data/CA_001.jpg" uk-img>
+                  <h4 class="lead-2">CAFE APRON</h4>
+                </div>
+              </a>
+              <a class="uk-height-medium uk-width-1-3@s uk-width-1-2 uk-link-reset">
+                <div class="uk-background-cover uk-light uk-height-1-1 uk-flex uk-flex-center uk-flex-middle tint" data-src="data/CAFE_001.jpg" uk-img>
+                  <h4 class="lead-2">CAFE BONJOUR</h4>
+                </div>
+              </a>
+              <a class="uk-height-medium uk-width-2-3@s uk-width-1-2 uk-link-reset">
+                <div class="uk-background-cover uk-light uk-height-1-1 uk-flex uk-flex-center uk-flex-middle tint" data-src="data/MODERNCLASSIC_001.jpg" uk-img>
+                  <h4 class="lead-2">HOTEL CAMBODIANA</h4>
+                </div>
+              </a>
+              <a class="uk-height-medium uk-width-1-3@s uk-width-1-2 uk-link-reset">
+                <div class="uk-background-cover uk-light uk-height-1-1 uk-flex uk-flex-center uk-flex-middle tint" data-src="data/RESIDENT_001.jpg" uk-img>
+                  <h4 class="lead-2">RESIDENTIAL VILLA</h4>
+                </div>
+              </a>
+              <a class="uk-height-medium uk-width-1-3@s uk-width-1-2 uk-link-reset">
+                <div class="uk-background-cover uk-light uk-height-1-1 uk-flex uk-flex-center uk-flex-middle tint" data-src="data/VINTAGE_003.jpg" uk-img>
+                  <h4 class="lead-2">LA'TEUR BAR</h4>
+                </div>
+              </a>
+              <a class="uk-height-medium uk-width-1-3@s uk-width-1-2 uk-link-reset">
+                <div class="uk-background-cover uk-light uk-height-1-1 uk-flex uk-flex-center uk-flex-middle tint" data-src="data/AA_001.jpg" uk-img>
+                  <h4 class="lead-2">ARTISANS ANGKOR</h4>
+                </div>
+              </a>
+            </div>
+
+            <br><br>
+
+            <h2 class="lead-2 uk-margin-medium-bottom">ARCH VIZ</h2>
+            <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="autoplay: true; autoplay-interval: 3500; pause-on-hover: true; animation: slide; ratio: 7:4">
+              <ul class="uk-slideshow-items" uk-lightbox="animation: slide">
+                <a class="uk-position-cover" href="data/BUILDING-FRONT.jpg">
+                  <img src="data/BUILDING-FRONT.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/BUILDING-POOL.jpg">
+                  <img src="data/BUILDING-POOL.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/CAFE_001.jpg">
+                  <img src="data/CAFE_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/CONTEMPORARY_001.jpg">
+                  <img src="data/CONTEMPORARY_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/CONTEMPORARY_002.jpg">
+                  <img src="data/CONTEMPORARY_002.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/eclipse_001.jpg">
+                  <img src="data/eclipse_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/eclipse_002.jpg">
+                  <img src="data/eclipse_002.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/eclipse_003.jpg">
+                  <img src="data/eclipse_003.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/EXTERIOR_001.jpg">
+                  <img src="data/EXTERIOR_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/INDUSTRIAL_001.jpg">
+                  <img src="data/INDUSTRIAL_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/INDUSTRIAL_002.jpg">
+                  <img src="data/INDUSTRIAL_002.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/INDUSTRIAL_003.jpg">
+                  <img src="data/INDUSTRIAL_003.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/INDUSTRIAL_004.jpg">
+                  <img src="data/INDUSTRIAL_004.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/INDUSTRIAL_006.jpg">
+                  <img src="data/INDUSTRIAL_006.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/MIDCENTURYMODERN_001.jpg">
+                  <img src="data/MIDCENTURYMODERN_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/MIDCENTURYMODERN_002.jpg">
+                  <img src="data/MIDCENTURYMODERN_002.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/MODERNCLASSIC_001.jpg">
+                  <img src="data/MODERNCLASSIC_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/MODERNCLASSIC_002.jpg">
+                  <img src="data/MODERNCLASSIC_002.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/MODERNCLASSIC_003.jpg">
+                  <img src="data/MODERNCLASSIC_003.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/MODERNCLASSIC_004.jpg">
+                  <img src="data/MODERNCLASSIC_004.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/RESIDENT_001.jpg">
+                  <img src="data/RESIDENT_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/RESIDENT_002.jpg">
+                  <img src="data/RESIDENT_002.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/TPR_JapaneseRes_001.jpg">
+                  <img src="data/TPR_JapaneseRes_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/TPR_JapaneseRes_002.jpg">
+                  <img src="data/TPR_JapaneseRes_002.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/TPR_JapaneseRes_003.jpg">
+                  <img src="data/TPR_JapaneseRes_003.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/TPR_PoolBar_001.jpg">
+                  <img src="data/TPR_PoolBar_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/TPR_PoolBar_002.jpg">
+                  <img src="data/TPR_PoolBar_002.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/TPR_PoolBar_003.jpg">
+                  <img src="data/TPR_PoolBar_003.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/VINTAGE_001.jpg">
+                  <img src="data/VINTAGE_001.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/VINTAGE_002.jpg">
+                  <img src="data/VINTAGE_002.jpg" alt="" uk-cover>
+                </a>
+                <a class="uk-position-cover" href="data/VINTAGE_003.jpg">
+                  <img src="data/VINTAGE_003.jpg" alt="" uk-cover>
+                </a>
+              </ul>
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            </div>
+
+            <br><br>
+
+            <h2 class="lead-2 uk-margin-medium-bottom">WEB</h2>
+            <div class="uk-grid-collapse uk-text-center" uk-grid>
+              <a class="uk-height-small uk-width-1-4@m uk-width-1-2@s uk-width-1-1 uk-link-reset" target="_blank" href="https://h-artjj.asia/">
+                <div class="uk-background-cover uk-light uk-height-1-1 uk-flex uk-flex-center uk-flex-middle tint" data-src="data/hart.jpg" uk-img>
+                </div>
+              </a>
+            </div>
+
+            <br>
+          </div>
+
+        </div>
+        
+      </div>
+
+    </div>
+
+  </body>
+</html>
