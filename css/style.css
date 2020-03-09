@@ -2,6 +2,7 @@
 #464c4f font 1
 #828283 font 2
 #ececee bg
+#dfdfe2 button
 #d8604b red
 */
 /* global */
@@ -83,6 +84,10 @@ h2,h4 {
 }
 .uk-button:active {
     background: #d8604b;
+}
+.uk-link-muted a, a.uk-link-muted {
+    color: #828283;
+    background-color: #dfdfe2;
 }
 
 /* responsive */
